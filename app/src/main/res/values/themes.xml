@@ -2,6 +2,7 @@
     <!-- Base application theme. -->
     <style name="Theme.TCalc" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Primary brand color. -->
+        <item name="android:colorBackground">@color/gray_200</item>
         <item name="colorPrimary">@color/gray_500</item>
         <item name="colorPrimaryDark">@color/gray_700</item>
         <item name="colorAccent">@color/gray_200</item>
