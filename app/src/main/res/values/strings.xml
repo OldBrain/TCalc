@@ -3,4 +3,5 @@
     <string name="title_home">Расчет</string>
     <string name="title_dashboard">История</string>
     <string name="title_notifications">Настройки</string>
+    <string name="title_time_begin">Начальное время</string>
 </resources>
