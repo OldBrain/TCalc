@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">TCalc</string>
+    <string name="title_home">Расчет</string>
+    <string name="title_dashboard">История</string>
+    <string name="title_notifications">Настройки</string>
+</resources>
