@@ -17,6 +17,7 @@
         android:layout_marginTop="5dp"
         android:fontFamily="@font/abril_fatface"
         android:text="Интервал времени"
+        android:textColor="#212121"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -34,6 +35,7 @@
         app:layout_constraintStart_toEndOf="@+id/time_icon_begin"
         app:layout_constraintTop_toBottomOf="@+id/header_title" />
 
+
     <TextView
         android:id="@+id/time_icon_begin"
         android:layout_width="wrap_content"
@@ -41,6 +43,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginTop="45dp"
         android:text="🕐 С:"
+        android:textColor="#B2DFDB"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/header_title" />
@@ -81,14 +84,24 @@
 
     <EditText
         android:id="@+id/editTextNumberDecimal2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="148dp"
+        android:layout_height="45dp"
         android:layout_marginStart="24dp"
         android:layout_marginTop="30dp"
         android:ems="10"
         android:inputType="numberDecimal"
         app:layout_constraintStart_toEndOf="@+id/textView"
         app:layout_constraintTop_toBottomOf="@+id/editTextTimeEnd" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="79dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="15dp"
+        android:src="@android:drawable/presence_online"
+        app:layout_constraintBottom_toBottomOf="@+id/editTextNumberDecimal2"
+        app:layout_constraintStart_toEndOf="@+id/editTextNumberDecimal2"
+        app:layout_constraintTop_toTopOf="@+id/editTextNumberDecimal2" />
 
 
     <!--    <TextView-->
